@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <img src="logo.svg" alt="URL-ologist: Logo" class="logo-img">
+      <div class="header-text">
+        <h1>URL-ologist</h1>
+        <p class="subtitle">Find hidden shortcuts.</p>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="current-site" class="current-site">
+      <span class="site-label">Current site</span>
+      <span class="site-name" id="site-name"></span>
+    </div>
+    <div id="buttons" class="buttons-container"></div>
+    <div id="empty-state" class="empty-state hidden">
+      <div class="empty-content">
+        <div class="empty-icon">✨</div>
+        <p class="empty-title">No tricks available</p>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
